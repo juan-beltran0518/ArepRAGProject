@@ -30,31 +30,6 @@ Sistema de Recuperación Aumentada por Generación (RAG) implementado siguiendo 
 - **Cuenta Pinecone** (gratuita disponible)
 - **macOS, Linux o Windows**
 
-### 2. Instalación de Ollama
-
-```bash
-# macOS
-brew install ollama
-brew services start ollama
-
-# Linux
-curl -fsSL https://ollama.com/install.sh | sh
-
-# Windows
-# Descargar desde https://ollama.com/download
-```
-
-![Instalación de Ollama](src/resource/11.png)
-
-Descargar modelos necesarios:
-
-```bash
-ollama pull nomic-embed-text  # Embeddings (768 dim)
-ollama pull llama3.2:1b       # LLM para generación
-```
-
-![Descarga de modelos](src/resource/12.png)
-
 ### 3. Configurar Proyecto
 
 ```bash
