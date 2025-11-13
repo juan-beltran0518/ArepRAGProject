@@ -1,6 +1,6 @@
 # RAG System with LangChain 
 
-Sistema de Recuperación Aumentada por Generación (RAG) implementado siguiendo el tutorial oficial de LangChain, usando modelos locales con Ollama y almacenamiento vectorial en Pinecone.
+Sistema de Recuperación Aumentada por Generación (RAG) implementado siguiendo el tutorial oficial de LangChain, usando modelos y almacenamiento vectorial en Pinecone.
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![LangChain](https://img.shields.io/badge/LangChain-0.3+-green.svg)](https://python.langchain.com/)
