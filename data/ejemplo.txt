@@ -1,0 +1,23 @@
+Sistema de Recuperación Aumentada por Generación (RAG)
+
+El RAG es una técnica que combina la recuperación de información con modelos de lenguaje grandes (LLMs).
+
+Componentes principales:
+1. Base de datos vectorial: Almacena embeddings de documentos
+2. Modelo de embeddings: Convierte texto en vectores numéricos
+3. Retriever: Busca documentos relevantes según la consulta
+4. Generador: LLM que produce respuestas basadas en el contexto recuperado
+
+Ventajas del RAG:
+- Reduce alucinaciones del modelo
+- Permite respuestas basadas en datos específicos
+- No requiere reentrenamiento del LLM
+- Actualizable con nuevos documentos fácilmente
+
+Casos de uso:
+- Asistentes de documentación técnica
+- Búsqueda semántica en bases de conocimiento
+- Sistemas de preguntas y respuestas empresariales
+- Chatbots con información actualizada
+
+Este proyecto usa LangChain, Pinecone y OpenAI para implementar un sistema RAG completo.
